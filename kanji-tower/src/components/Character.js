@@ -34,13 +34,15 @@ export default function Character(props) {
             case 14: return pic14;
         }
     }
-    console.log(props)
+    function characterClick(){
+      console.log('user clicked the Character with id: ...this '+this)
+    }
   return (
-    <div>
+    <div className='character ' onClick={characterClick}>
         <p>Character {props.character.id}</p>
         <p>Meaning: {props.character.meaning}</p>
         <p>Kanji: {props.character.kanji}</p>
-        <img src={getRightImg(props.character.id)}/>
+        <img className='img' src={getRightImg(props.character.id)}/>
     </div>
   )
 }
