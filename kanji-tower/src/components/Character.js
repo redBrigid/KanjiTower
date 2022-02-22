@@ -1,11 +1,11 @@
 import React from 'react'
-import pic1 from '../img/1.jpg'
+import pic1 from '../img/1.png'
 import pic2 from '../img/2.jpg'
 import pic3 from '../img/3.jpg'
 import pic4 from '../img/4.jpg'
 import pic5 from '../img/5.jpg'
 import pic6 from '../img/6.jpg'
-import pic7 from '../img/7.jpg'
+import pic7 from '../img/7.png'
 import pic8 from '../img/8.jpg'
 import pic9 from '../img/9.jpg'
 import pic10 from '../img/10.jpg'
@@ -39,9 +39,8 @@ export default function Character(props) {
     }
   return (
     <div className='character ' onClick={characterClick}>
-        <p>Character {props.character.id}</p>
-        <p>Meaning: {props.character.meaning}</p>
-        <p>Kanji: {props.character.kanji}</p>
+        <p className='p-meaning'>{props.character.meaning}</p>
+        <p className='p-kanji'>{props.character.kanji}</p>
         <img className='img' src={getRightImg(props.character.id)}/>
     </div>
   )

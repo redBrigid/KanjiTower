@@ -12,11 +12,6 @@ code {
     monospace;
 }
 
-.tower{
-  color: blue;
-  border: 4px solid blue;
-  
-}
 .flex{
   flex-direction: row;
   flex-wrap: no-wrap;
@@ -28,15 +23,24 @@ code {
 }
 
 .floor{
-  color:green;
-  border: 4px solid green;
   align-self: center;
 }
 
 .character{
-  color:blueviolet;
-  border: 4px solid blueviolet;
-  
+  font-size: 30px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.p-meaning{
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+}
+.p-kanji{
+  margin: 0px;
+  padding: 0px;
+  font-size: 100px;
 }
 
 * {
@@ -48,7 +52,6 @@ code {
   flex-wrap: nowrap;
   font-size: 30px;
   text-align: center;
-  border:4px solid yellow;
 }
 
 .flex-container-tower {
@@ -61,30 +64,26 @@ code {
 
 .flex-item-character {
   background-color: pink;
-  padding: 10px;
+  padding: 2px;
   flex-direction: row;
   flex-wrap: nowrap;
   flex: 100%;
-  border: solid red 4px;
 }
 
 .flex-item-characters {
   display: flex;
-  background-color: rgb(255, 94, 0);
-  
   padding: 10px;
+  margin: 4px;
   flex: 70%;
 }
 
 .flex-item-full {
-  background-color: rgb(116, 7, 43);
   padding: 10px;
   align-self: stretch;
   flex: 100%;
 }
 
 .flex-item-margin {
-  background-color: dodgerblue;
   padding: 10px;
   flex: 15%;
 }
