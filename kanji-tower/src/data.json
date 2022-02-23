@@ -89,39 +89,39 @@
                 "picture": "todo"
             },
             {
-                "id": 11,
-                "meaning": "man",
-                "kanji": "男",
+                "id": 15,
+                "meaning": "cat",
+                "kanji": "猫",
                 "picture": "todo"
             },
             {
-                "id": 10,
-                "meaning": "man",
-                "kanji": "男",
+                "id": 16,
+                "meaning": "dog",
+                "kanji": "犬",
                 "picture": "todo"
             },
             {
-                "id": 10,
-                "meaning": "man",
-                "kanji": "男",
+                "id": 17,
+                "meaning": "bird",
+                "kanji": "鳥",
                 "picture": "todo"
             },
             {
-                "id": 10,
-                "meaning": "man",
-                "kanji": "男",
+                "id": 18,
+                "meaning": "horse",
+                "kanji": "馬",
                 "picture": "todo"
             },
             {
-                "id": 10,
-                "meaning": "man",
-                "kanji": "男",
+                "id": 19,
+                "meaning": "groove",
+                "kanji": "林",
                 "picture": "todo"
             },
             {
-                "id": 10,
-                "meaning": "man",
-                "kanji": "男",
+                "id": 20,
+                "meaning": "forest",
+                "kanji": "森",
                 "picture": "todo"
             }
         ],

@@ -41,6 +41,13 @@ code {
   margin: 0px;
   padding: 0px;
   font-size: 100px;
+  animation: kanji 4s infinite;
+}
+
+@keyframes kanji {
+  0% {font-size: 100px;}   
+  50% {font-size: 50px;}  
+  100% {font-size: 100px;}
 }
 
 * {
