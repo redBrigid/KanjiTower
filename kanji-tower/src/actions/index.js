@@ -9,3 +9,15 @@ export const payCurrency=()=>{
         type:'DECREMENT_CURRENCY'
     };
 };
+
+export const setQuizMode=()=>{
+    return{
+        type:'SET_QUIZ_MODE'
+    };
+};
+
+export const setTowerMode=()=>{
+    return{
+        type:'SET_TOWER_MODE'
+    };
+};
