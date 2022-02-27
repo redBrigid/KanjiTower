@@ -7,8 +7,8 @@ export default function Navigation() {
     return (
         <div>
             <nav>
-                <button onClick={dispatch(setQuizMode())}>Quiz</button>
-                <button onClick={dispatch(setTowerMode())}>Tower</button>
+                <button onClick={()=>dispatch(setQuizMode())}>Quiz</button>
+                <button onClick={()=>dispatch(setTowerMode())}>Tower</button>
             </nav>
         </div>
     )
