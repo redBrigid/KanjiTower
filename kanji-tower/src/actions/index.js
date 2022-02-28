@@ -21,3 +21,11 @@ export const setTowerMode=()=>{
         type:'SET_TOWER_MODE'
     };
 };
+
+export const setCharacterDetailsMode=(arg)=>{
+    return{
+        type:'SET_CHARACTER_DETAILS_MODE',
+        payload: arg
+    };
+};
+

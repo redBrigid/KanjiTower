@@ -13,9 +13,10 @@ import pic11 from '../img/11.jpg'
 import pic12 from '../img/12.jpg'
 import pic13 from '../img/13.jpg'
 import pic14 from '../img/14.jpg'
+import { useDispatch } from 'react-redux';
+import { setCharacterDetailsMode } from '../actions'
 
 export default function Character(props) {
-    const characterInfo = props;
     function getRightImg(n){
         switch(n){
             case 1: return pic1;
@@ -34,11 +35,11 @@ export default function Character(props) {
             case 14: return pic14;
         }
     }
-    function characterClick(){
-      console.log('user clicked the Character with id: ...this '+this)
-    }
+    
+    const dispatch = useDispatch();
+    
   return (
-    <div className='character ' onClick={characterClick}>
+    <div className='character ' onClick={()=>dispatch(setCharacterDetailsMode(props.character))}>
         <p className='p-meaning'>{props.character.meaning}</p>
         <p className='p-kanji'>{props.character.kanji}</p>
         <img className='img' src={getRightImg(props.character.id)}/>

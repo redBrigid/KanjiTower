@@ -3,6 +3,7 @@ import Tower from './Tower'
 import Quiz from './Quiz'
 import Navigation from './Navigation'
 import { useSelector } from 'react-redux';
+import CharacterDetails from './CharacterDetails';
 
 
 export default function AppBody() {
@@ -13,7 +14,7 @@ export default function AppBody() {
       <Navigation />
       {(mode === 'tower') 
         ? <Tower />
-        : (mode === 'quiz') ? <Quiz /> : ''}
+        : (mode === 'quiz') ? <Quiz /> : <CharacterDetails/>}
     </div>
   )
 }

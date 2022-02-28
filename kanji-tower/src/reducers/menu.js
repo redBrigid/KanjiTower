@@ -4,6 +4,8 @@ const menuReducer = (state = 'tower', action) => {
             return 'tower';
         case 'SET_QUIZ_MODE':
             return 'quiz';
+        case 'SET_CHARACTER_DETAILS_MODE':
+            return 'characterDetails';
         default:
             return state;
     }
