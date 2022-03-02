@@ -5,7 +5,7 @@ const menuReducer = (state = 'tower', action) => {
         case 'SET_QUIZ_MODE':
             return 'quiz';
         case 'SET_CHARACTER_DETAILS_MODE':
-            return 'characterDetails';
+            return {state:'characterDetails',payload:action.payload};
         default:
             return state;
     }
