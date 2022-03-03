@@ -29,3 +29,32 @@ export const setCharacterDetailsMode=(arg)=>{
     };
 };
 
+export const plusButton=arg=>{
+    return{
+        type:'PLUS_BUTTON',
+        payload: arg
+    }
+}
+
+export const minusButton=arg=>{
+    return{
+        type:'MINUS_BUTTON',
+        payload: arg
+    }
+}
+
+export const quizModeQuestion=arg=>{
+    return{
+        type:'QUIZ_MODE_QUESTION',
+        payload: arg
+    }
+}
+
+export const quizModeAnswer=arg=>{
+    return{
+        type:'QUIZ_MODE_ANSWER',
+        payload: arg
+    }
+}
+
+
