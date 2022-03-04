@@ -3,12 +3,12 @@ const quizModeReducer = (state = 'question', action) => {
         case 'QUIZ_MODE_QUESTION':
             return {
                 state:'question',
-                payload:action.payload
+                payload:action.payload+1
             };
         case 'QUIZ_MODE_ANSWER':
             return {
                 state:'answer',
-                payload:action.payload
+                payload:action.payload+1
             };
         default:
             return state;

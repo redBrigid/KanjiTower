@@ -1,13 +1,16 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { quizModeAnswer, quizModeQuestion } from '../actions';
+import { quizModeAnswer, quizModeQuestion, updateIndex } from '../actions';
 import rawData from '../data.json'
 import Answer from './Answer';
 import Question from './Question';
 
 export default function Quiz() {
   const mode = useSelector(state=>state.quizModeReducer);
+  const index = useSelector(state=>state.quizIndexReducer);
   const dispatch = useDispatch();
+  
+  console.log(index)
 
   return (
     <div>
@@ -17,6 +20,7 @@ export default function Quiz() {
       ?<Question/>
       :<Answer/>
       }
+      <button onClick={()=>dispatch(updateIndex())}>test</button>
       <button onClick={()=>dispatch(quizModeQuestion())}>q</button>
       <button onClick={()=>dispatch(quizModeAnswer())}>a</button>
     </div>

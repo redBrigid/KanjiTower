@@ -57,4 +57,9 @@ export const quizModeAnswer=arg=>{
     }
 }
 
-
+export const updateIndex=arg=>{
+    return{
+        type:'UPDATE_INDEX',
+        payload: arg
+    }
+}
