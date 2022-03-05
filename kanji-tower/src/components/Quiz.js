@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { quizModeAnswer, quizModeQuestion, updateIndex } from '../actions';
+import { quizModeAnswer, quizModeQuestion, nextIndex, prevIndex } from '../actions';
 import rawData from '../data.json'
 import Answer from './Answer';
 import Question from './Question';
@@ -10,19 +10,21 @@ export default function Quiz() {
   const index = useSelector(state=>state.quizIndexReducer);
   const dispatch = useDispatch();
   
-  console.log(index)
+  
 
+  const maxIndex=rawData.floorList.length;
+console.log('uuuu',index,maxIndex,rawData.floorList.length)
   return (
-    <div>
+    <div className='quiz'>
       <p>Quiz</p>
-      {
-      mode.state==='question'
-      ?<Question/>
-      :<Answer/>
-      }
-      <button onClick={()=>dispatch(updateIndex())}>test</button>
-      <button onClick={()=>dispatch(quizModeQuestion())}>q</button>
-      <button onClick={()=>dispatch(quizModeAnswer())}>a</button>
+         
+      <Question data={rawData.floorList}/>
+      <Answer data={rawData.floorList}/>
+
+      <button disabled={index===0?true:false} onClick={()=>dispatch(prevIndex(maxIndex))}>prev</button>
+      <button className='red' disabled={index===maxIndex-1?true:false} onClick={()=>dispatch(nextIndex(maxIndex))}>next</button>
+       {/* <button onClick={()=>dispatch(quizModeQuestion())}>q</button>
+      <button onClick={()=>dispatch(quizModeAnswer())}>a</button> */}
     </div>
   )
 

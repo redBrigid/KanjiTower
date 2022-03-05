@@ -1,192 +1,184 @@
 {
     "floorList": [
-        [
-            {
-                "id": 1,
-                "meaning": "moon",
-                "kanji": "月",
-                "picture": "todo"
-            },
-            {
-                "id": 2,
-                "meaning": "fire",
-                "kanji": "火",
-                "picture": "todo"
-            },
-            {
-                "id": 3,
-                "meaning": "water",
-                "kanji": "水",
-                "picture": "todo"
-            },
-            {
-                "id": 4,
-                "meaning": "tree",
-                "kanji": "木",
-                "picture": "todo"
-            },
-            {
-                "id": 5,
-                "meaning": "gold",
-                "kanji": "金",
-                "picture": "todo"
-            },
-            {
-                "id": 6,
-                "meaning": "soil",
-                "kanji": "土",
-                "picture": "todo"
-            },
-            {
-                "id": 7,
-                "meaning": "sun",
-                "kanji": "日",
-                "picture": "todo"
-            },
-            {
-                "id": 8,
-                "meaning": "human",
-                "kanji": "人",
-                "picture": "todo"
-            },
-            {
-                "id": 9,
-                "meaning": "woman",
-                "kanji": "女",
-                "picture": "todo"
-            },
-            {
-                "id": 10,
-                "meaning": "man",
-                "kanji": "男",
-                "picture": "todo"
-            }           
-        ],
-        [
-            
-            {
-                "id": 11,
-                "meaning": "child",
-                "kanji": "子",
-                "picture": "todo"
-            },
-            {
-                "id": 12,
-                "meaning": "rice field",
-                "kanji": "田",
-                "picture": "todo"
-            },
-            {
-                "id": 13,
-                "meaning": "river",
-                "kanji": "川",
-                "picture": "todo"
-            },
-            {
-                "id": 14,
-                "meaning": "car",
-                "kanji": "車",
-                "picture": "todo"
-            },
-            {
-                "id": 15,
-                "meaning": "cat",
-                "kanji": "猫",
-                "picture": "todo"
-            },
-            {
-                "id": 16,
-                "meaning": "dog",
-                "kanji": "犬",
-                "picture": "todo"
-            },
-            {
-                "id": 17,
-                "meaning": "bird",
-                "kanji": "鳥",
-                "picture": "todo"
-            },
-            {
-                "id": 18,
-                "meaning": "horse",
-                "kanji": "馬",
-                "picture": "todo"
-            },
-            {
-                "id": 19,
-                "meaning": "groove",
-                "kanji": "林",
-                "picture": "todo"
-            },
-            {
-                "id": 20,
-                "meaning": "forest",
-                "kanji": "森",
-                "picture": "todo"
-            }
-        ],
-        [
-            
-            {
-                "id": 31,
-                "meaning": "one",
-                "kanji": "一",
-                "picture": "todo"
-            },
-            {
-                "id": 32,
-                "meaning": "two",
-                "kanji": "二",
-                "picture": "todo"
-            },
-            {
-                "id": 33,
-                "meaning": "three",
-                "kanji": "三",
-                "picture": "todo"
-            },
-            {
-                "id": 34,
-                "meaning": "four",
-                "kanji": "四",
-                "picture": "todo"
-            },
-            {
-                "id": 35,
-                "meaning": "five",
-                "kanji": "五",
-                "picture": "todo"
-            },
-            {
-                "id": 36,
-                "meaning": "six",
-                "kanji": "六",
-                "picture": "todo"
-            },
-            {
-                "id": 37,
-                "meaning": "seven",
-                "kanji": "七",
-                "picture": "todo"
-            },
-            {
-                "id": 38,
-                "meaning": "eight",
-                "kanji": "八",
-                "picture": "todo"
-            },
-            {
-                "id": 39,
-                "meaning": "nine",
-                "kanji": "九",
-                "picture": "todo"
-            },
-            {
-                "id": 40,
-                "meaning": "ten",
-                "kanji": "十",
-                "picture": "todo"
-            }
-        ]
+        {
+            "id": 1,
+            "meaning": "moon",
+            "kanji": "月",
+            "picture": "todo"
+        },
+        {
+            "id": 2,
+            "meaning": "fire",
+            "kanji": "火",
+            "picture": "todo"
+        },
+        {
+            "id": 3,
+            "meaning": "water",
+            "kanji": "水",
+            "picture": "todo"
+        },
+        {
+            "id": 4,
+            "meaning": "tree",
+            "kanji": "木",
+            "picture": "todo"
+        },
+        {
+            "id": 5,
+            "meaning": "gold",
+            "kanji": "金",
+            "picture": "todo"
+        },
+        {
+            "id": 6,
+            "meaning": "soil",
+            "kanji": "土",
+            "picture": "todo"
+        },
+        {
+            "id": 7,
+            "meaning": "sun",
+            "kanji": "日",
+            "picture": "todo"
+        },
+        {
+            "id": 8,
+            "meaning": "human",
+            "kanji": "人",
+            "picture": "todo"
+        },
+        {
+            "id": 9,
+            "meaning": "woman",
+            "kanji": "女",
+            "picture": "todo"
+        },
+        {
+            "id": 10,
+            "meaning": "man",
+            "kanji": "男",
+            "picture": "todo"
+        },
+        {
+            "id": 11,
+            "meaning": "child",
+            "kanji": "子",
+            "picture": "todo"
+        },
+        {
+            "id": 12,
+            "meaning": "rice field",
+            "kanji": "田",
+            "picture": "todo"
+        },
+        {
+            "id": 13,
+            "meaning": "river",
+            "kanji": "川",
+            "picture": "todo"
+        },
+        {
+            "id": 14,
+            "meaning": "car",
+            "kanji": "車",
+            "picture": "todo"
+        },
+        {
+            "id": 15,
+            "meaning": "cat",
+            "kanji": "猫",
+            "picture": "todo"
+        },
+        {
+            "id": 16,
+            "meaning": "dog",
+            "kanji": "犬",
+            "picture": "todo"
+        },
+        {
+            "id": 17,
+            "meaning": "bird",
+            "kanji": "鳥",
+            "picture": "todo"
+        },
+        {
+            "id": 18,
+            "meaning": "horse",
+            "kanji": "馬",
+            "picture": "todo"
+        },
+        {
+            "id": 19,
+            "meaning": "groove",
+            "kanji": "林",
+            "picture": "todo"
+        },
+        {
+            "id": 20,
+            "meaning": "forest",
+            "kanji": "森",
+            "picture": "todo"
+        },
+        {
+            "id": 31,
+            "meaning": "one",
+            "kanji": "一",
+            "picture": "todo"
+        },
+        {
+            "id": 32,
+            "meaning": "two",
+            "kanji": "二",
+            "picture": "todo"
+        },
+        {
+            "id": 33,
+            "meaning": "three",
+            "kanji": "三",
+            "picture": "todo"
+        },
+        {
+            "id": 34,
+            "meaning": "four",
+            "kanji": "四",
+            "picture": "todo"
+        },
+        {
+            "id": 35,
+            "meaning": "five",
+            "kanji": "五",
+            "picture": "todo"
+        },
+        {
+            "id": 36,
+            "meaning": "six",
+            "kanji": "六",
+            "picture": "todo"
+        },
+        {
+            "id": 37,
+            "meaning": "seven",
+            "kanji": "七",
+            "picture": "todo"
+        },
+        {
+            "id": 38,
+            "meaning": "eight",
+            "kanji": "八",
+            "picture": "todo"
+        },
+        {
+            "id": 39,
+            "meaning": "nine",
+            "kanji": "九",
+            "picture": "todo"
+        },
+        {
+            "id": 40,
+            "meaning": "ten",
+            "kanji": "十",
+            "picture": "todo"
+        }
     ]
 }

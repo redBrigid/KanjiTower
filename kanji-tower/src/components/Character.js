@@ -17,6 +17,7 @@ import { useDispatch } from 'react-redux';
 import { setCharacterDetailsMode } from '../actions'
 
 export default function Character(props) {
+ console.log('ccc', props)
     function getRightImg(n){
         switch(n){
             case 1: return pic1;

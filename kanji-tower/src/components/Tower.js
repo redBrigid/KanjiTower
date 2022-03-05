@@ -1,6 +1,7 @@
 import React from 'react'
 import Floor from './Floor';
 import data from '../data.json'
+import Character from './Character';
 
 export default function Tower() {
     return (
@@ -8,7 +9,7 @@ export default function Tower() {
         <div className='tower'><span>Tower</span>
 
             <div className='flex-container-tower'>
-                {data.floorList.map((floor, i,) => <Floor key={i} floor={floor} floorNumber={i + 1} />)}
+                {data.floorList.map((item, i,) => <Character key={i} character={item} />)}
             </div>
         </div>
     )

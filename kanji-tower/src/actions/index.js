@@ -57,9 +57,16 @@ export const quizModeAnswer=arg=>{
     }
 }
 
-export const updateIndex=arg=>{
+export const nextIndex=maxIndex=>{
     return{
-        type:'UPDATE_INDEX',
-        payload: arg
+        type:'NEXT_INDEX',
+        payload: maxIndex
+    }
+}
+
+export const prevIndex=maxIndex=>{
+    return{
+        type:'PREV_INDEX',
+        payload: maxIndex
     }
 }

@@ -1,15 +1,12 @@
 import React from 'react'
-import { useSelector,useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 export default function Question(props) {
-
-    const dispatch=useDispatch();
+    const index = useSelector(state=>state.quizIndexReducer)
+    console.log('ppp', props.value)
     return (
         <div>
-            <p>Question</p>
-            {/* <p>{props.data}</p> */}
-            {/* <button onClick={()=>dispatch(minusButton(props.data))}>-</button>
-            <button onClick={()=>dispatch(plusButton(props.data))}>+</button> */}
+            <p>{props.data[index].kanji}</p>
         </div>
     )
 }
