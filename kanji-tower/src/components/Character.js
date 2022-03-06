@@ -40,10 +40,10 @@ export default function Character(props) {
     const dispatch = useDispatch();
     
   return (
-    <div className='character ' onClick={()=>dispatch(setCharacterDetailsMode(props.character))}>
-        <p className='p-meaning'>{props.character.meaning}</p>
-        <p className='p-kanji'>{props.character.kanji}</p>
-        <img className='img' src={getRightImg(props.character.id)}/>
+    <div className='character2 ' onClick={()=>dispatch(setCharacterDetailsMode(props.character))}>
+        <p className='meaning2'>{props.character.meaning}</p>
+        <p className='kanji2'>{props.character.kanji}</p>
+        {/* <img className='img' src={getRightImg(props.character.id)}/> */}
     </div>
   )
 }
