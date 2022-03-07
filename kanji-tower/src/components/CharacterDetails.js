@@ -4,9 +4,11 @@ import { useSelector } from 'react-redux'
 export default function CharacterDetails() {
   const info = useSelector(state => state.menuReducer);
   return (
-    <div>
-      Details of: {info.state},
-      payload: {JSON.stringify(info.payload)}
-    </div>
+    <section className='character-details'>
+      
+      <p>{info.payload.kanji}</p>
+      <p>{info.payload.meaning}</p>
+
+    </section>
   )
 }

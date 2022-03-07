@@ -32,7 +32,7 @@
   font-size: 12px;
 }
 
-.quiz{
+.quiz, .character-details{
   height: 100%;
   width: 100%;
   background-color: rgb(130, 189, 238);
